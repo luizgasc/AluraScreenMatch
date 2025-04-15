@@ -9,7 +9,7 @@ public class ConsultaChatGPT {
 
 
     public static String obterTraducao(String texto) {
-        String APIKEY = "YOUR_KEY";
+        String APIKEY = "";
         OpenAiService service = new OpenAiService(APIKEY);
 
         CompletionRequest requisicao = CompletionRequest.builder()

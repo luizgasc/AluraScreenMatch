@@ -9,8 +9,8 @@ public class ConsultaChatGPT {
 
 
     public static String obterTraducao(String texto) {
-        String APIKEY = "";
-        OpenAiService service = new OpenAiService(APIKEY);
+        //String APIKEY = "";
+        //OpenAiService service = new OpenAiService(APIKEY);
 
         CompletionRequest requisicao = CompletionRequest.builder()
                 .model("gpt-3.5-turbo-instruct")
